@@ -2,3 +2,4 @@ django
 gunicorn
 django-heroku
 flake8
+black

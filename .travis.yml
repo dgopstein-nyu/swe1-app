@@ -10,7 +10,7 @@ before_script:
   python manage.py runserver &
 
 script:
-  coverage run manage.py tests
+  coverage run manage.py test
 
 #after_script:
 #  coveralls

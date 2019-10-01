@@ -11,7 +11,7 @@ before_script:
   - python manage.py collectstatic --noinput
 
 script:
-  - coverage run manage.py test
+  - coverage run --source=swe1,polls manage.py test
 
 after_script:
   - coveralls

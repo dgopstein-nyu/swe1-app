@@ -3,3 +3,6 @@
 *.pyc
 
 staticfiles/
+
+.coverage
+htmlcov/

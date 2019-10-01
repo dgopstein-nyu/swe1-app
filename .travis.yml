@@ -13,5 +13,5 @@ before_script:
 script:
   - coverage run manage.py test
 
-#after_script:
-#  coveralls
+after_script:
+  - coveralls
